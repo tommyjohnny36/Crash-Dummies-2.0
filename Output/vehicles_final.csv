@@ -1,4 +1,4 @@
-Case Number,Vehicle No.,Body Type,Speed Exceed,Driver Safety,Pedestrian Crash,Hit/Run
+Case_Number,Vehicle No.,Body Type,Speed Exceed,Driver Safety,Pedestrian Crash,Hit/Run
 10003,1,"4-door sedan, hardtop","Yes, Exceeded Speed Limit",Driver Has a Driving Record or Driver`s License From More Than One State,Traveling in same direction with lower steady speed,No
 10006,1,"Truck-tractor (Cab only, or with any number of trailing unit; any weight)",No,Improper Lane Usage,Over the lane line on left side of travel lane,No
 10011,1,"4-door sedan, hardtop","Yes, Too Fast for Conditions",Improper Lane Usage,Off the edge of the road on the left side,No

@@ -1,4 +1,4 @@
-State,Case Number,Persons,County,City,Month,Day,Route,Rural/Urban,Latitude,Longitude,First Harmful Event,Manner of Collision,Light Conditions,Weather
+State,Case_Number,Persons,County,City,Month,Day,Route,Rural/Urban,Latitude,Longitude,First Harmful Event,Manner of Collision,Light Conditions,Weather
 Alabama,10001,3,LEE (81),OPELIKA,February,Thursday,Interstate,Urban,32.66622222,-85.33665833,Motor Vehicle In-Transport,Front-to-Rear,Daylight,Clear
 Alabama,10002,2,ETOWAH (55),GADSDEN,January,Wednesday,Interstate,Urban,33.99782778,-86.05399722,Motor Vehicle In-Transport,Front-to-Rear,Dark - Not Lighted,Rain
 Alabama,10004,1,ETOWAH (55),RAINBOW CITY,January,Tuesday,Interstate,Rural,33.95647222,-86.14052222,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
@@ -4099,7 +4099,7 @@ Georgia,131394,2,RICHMOND (245),AUGUSTA,November,Monday,U.S. Highway,Urban,33.43
 Hawaii,150001,1,MAUI (9),WAIOHULI (RESIDENTIAL) HAWAIIAN HOME LAND,January,Tuesday,County Road,Urban,20.81749167,-156.3871278,Embankment,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150002,1,HONOLULU (3),HONOLULU,January,Monday,County Road,Urban,21.29186944,-157.7074806,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150003,1,HONOLULU (3),KAHUKU,January,Sunday,State Highway,Urban,21.69020556,-157.9692917,Embankment,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
-Hawaii,150004,3,HONOLULU (3),MA�ILI,January,Friday,State Highway,Urban,21.41942778,-158.1774722,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
+Hawaii,150004,3,HONOLULU (3),MA‘ILI,January,Friday,State Highway,Urban,21.41942778,-158.1774722,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150005,3,MAUI (9),KIHEI,January,Saturday,State Highway,Urban,20.78410556,-156.4600972,Fence,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150006,1,HONOLULU (3),PEARL CITY,January,Sunday,Interstate,Urban,21.41265278,-157.9901,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150007,7,HONOLULU (3),HONOLULU,January,Sunday,State Highway,Urban,21.28175278,-157.7359333,Motor Vehicle In-Transport,Front-to-Rear,Daylight,Clear
@@ -4117,15 +4117,15 @@ Hawaii,150019,1,MAUI (9),KAHULUI,March,Saturday,State Highway,Urban,20.83729444,
 Hawaii,150021,4,HAWAII (1),MOUNTAIN VIEW,March,Tuesday,State Highway,Rural,19.54966111,-155.1083833,Motor Vehicle In-Transport,Angle,Daylight,Rain
 Hawaii,150022,1,HONOLULU (3),HONOLULU,March,Thursday,Interstate,Urban,21.34432222,-157.8923944,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150023,2,HONOLULU (3),WAHIAWA,March,Sunday,County Road,Rural,21.53144722,-158.0823139,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150024,3,HONOLULU (3),KANE�OHE,March,Saturday,State Highway,Urban,21.40316944,-157.8069694,Motor Vehicle In-Transport,Angle,Dark - Lighted,Clear
+Hawaii,150024,3,HONOLULU (3),KANE‘OHE,March,Saturday,State Highway,Urban,21.40316944,-157.8069694,Motor Vehicle In-Transport,Angle,Dark - Lighted,Clear
 Hawaii,150025,1,HONOLULU (3),MILILANI TOWN,April,Thursday,County Road,Urban,21.4767,-158.0152806,Curb,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
 Hawaii,150026,3,HONOLULU (3),HONOLULU,April,Friday,County Road,Urban,21.30045,-157.8458139,Motor Vehicle In-Transport,Angle,Dark - Lighted,Clear
 Hawaii,150028,2,HAWAII (1),WAIMEA,March,Sunday,State Highway,Rural,19.83730278,-155.6418556,Embankment,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
 Hawaii,150030,4,HAWAII (1),KAILUA KONA,April,Saturday,State Highway,Urban,19.68443056,-155.9756167,Motor Vehicle In-Transport,Front-to-Front,Daylight,Clear
 Hawaii,150031,1,HONOLULU (3),HONOLULU,May,Wednesday,County Road,Urban,21.31571667,-157.8622972,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150032,2,KAUAI (7),LIHU�E,January,Saturday,State Highway,Rural,21.9623,-159.4476667,Motor Vehicle In-Transport,Front-to-Front,Dark - Not Lighted,Clear
+Hawaii,150032,2,KAUAI (7),LIHU‘E,January,Saturday,State Highway,Rural,21.9623,-159.4476667,Motor Vehicle In-Transport,Front-to-Front,Dark - Not Lighted,Clear
 Hawaii,150033,1,HONOLULU (3),HONOLULU,May,Thursday,County Road,Urban,21.26596667,-157.8212306,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
-Hawaii,150034,1,HONOLULU (3),WAI�ANAE,May,Saturday,County Road,Urban,21.44945,-158.1846444,Other Fixed Object,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
+Hawaii,150034,1,HONOLULU (3),WAI‘ANAE,May,Saturday,County Road,Urban,21.44945,-158.1846444,Other Fixed Object,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150035,2,KAUAI (7),KILAUEA,February,Saturday,State Highway,Rural,22.2033,-159.3921972,Motor Vehicle In-Transport,Front-to-Front,Dark - Not Lighted,Clear
 Hawaii,150036,2,HONOLULU (3),HONOLULU,May,Monday,County Road,Urban,21.29751944,-157.8514722,Motor Vehicle In-Transport,Angle,Daylight,Cloudy
 Hawaii,150037,1,HAWAII (1),HILO,April,Wednesday,State Highway,Urban,19.66913333,-155.0635583,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Cloudy
@@ -4134,29 +4134,29 @@ Hawaii,150039,2,MAUI (9),HONOKOWAI HAWAIIAN HOME LAND,May,Monday,State Highway,R
 Hawaii,150040,3,HAWAII (1),WAIMEA,May,Wednesday,State Highway,Rural,19.84336944,-155.7517083,Motor Vehicle In-Transport,Front-to-Front,Daylight,Clear
 Hawaii,150041,2,KAUAI (7),NIIHAU ISLAND,March,Friday,County Road,Urban,21.87596389,-159.4466917,Non-Motorist on Personal Conveyance,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Severe Crosswinds
 Hawaii,150042,2,HONOLULU (3),PEARL CITY,May,Thursday,Interstate,Urban,21.39105556,-157.9474194,Motor Vehicle In-Transport,Sideswipe - Same Direction,Dark - Lighted,Clear
-Hawaii,150043,1,HONOLULU (3),�EWA BEACH,May,Monday,County Road,Urban,21.36800833,-158.0261528,Parked Motor Vehicle,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
+Hawaii,150043,1,HONOLULU (3),‘EWA BEACH,May,Monday,County Road,Urban,21.36800833,-158.0261528,Parked Motor Vehicle,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
 Hawaii,150044,3,HONOLULU (3),WAHIAWA,June,Saturday,State Highway,Urban,21.57295,-158.0986083,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150045,1,HONOLULU (3),HONOLULU,June,Tuesday,County Road,Urban,21.31840278,-157.8657972,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
-Hawaii,150046,4,KAUAI (7),KAPA�A,February,Monday,State Highway,Urban,22.09291944,-159.3074639,Motor Vehicle In-Transport,Sideswipe - Same Direction,Dark - Not Lighted,Cloudy
-Hawaii,150047,11,MAUI (9),HALI�IMAILE,June,Sunday,State Highway,Urban,20.86611944,-156.3429861,Motor Vehicle In-Transport,Sideswipe - Opposite Direction,Dark - Not Lighted,Clear
-Hawaii,150048,1,HONOLULU (3),KANE�OHE,June,Saturday,Interstate,Urban,21.39423333,-157.8131333,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
+Hawaii,150046,4,KAUAI (7),KAPA‘A,February,Monday,State Highway,Urban,22.09291944,-159.3074639,Motor Vehicle In-Transport,Sideswipe - Same Direction,Dark - Not Lighted,Cloudy
+Hawaii,150047,11,MAUI (9),HALI‘IMAILE,June,Sunday,State Highway,Urban,20.86611944,-156.3429861,Motor Vehicle In-Transport,Sideswipe - Opposite Direction,Dark - Not Lighted,Clear
+Hawaii,150048,1,HONOLULU (3),KANE‘OHE,June,Saturday,Interstate,Urban,21.39423333,-157.8131333,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150049,3,HAWAII (1),WAIKOLOA VILLAGE,May,Thursday,County Road,Urban,19.92500556,-155.7965917,Motor Vehicle In-Transport,Angle,Daylight,Clear
 Hawaii,150050,1,HAWAII (1),PAHOA,May,Wednesday,State Highway,Rural,19.43395556,-154.945875,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150051,1,HAWAII (1),HILO,June,Saturday,County Road,Urban,19.70936389,-155.1163139,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Rain
 Hawaii,150052,1,HAWAII (1),KAILUA KONA,May,Thursday,County Road,Urban,19.63793056,-155.9916028,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150053,3,MAUI (9),KAHULUI,June,Sunday,State Highway,Urban,20.84686389,-156.4858667,Motor Vehicle In-Transport,Front-to-Front,Dark - Lighted,Clear
-Hawaii,150054,1,HONOLULU (3),KANE�OHE,June,Thursday,County Road,Urban,21.41645278,-157.8053444,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Cloudy
-Hawaii,150055,3,HONOLULU (3),HALE�IWA,June,Tuesday,State Highway,Urban,21.57789444,-158.1029056,Motor Vehicle In-Transport,Sideswipe - Opposite Direction,Daylight,Clear
+Hawaii,150054,1,HONOLULU (3),KANE‘OHE,June,Thursday,County Road,Urban,21.41645278,-157.8053444,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Cloudy
+Hawaii,150055,3,HONOLULU (3),HALE‘IWA,June,Tuesday,State Highway,Urban,21.57789444,-158.1029056,Motor Vehicle In-Transport,Sideswipe - Opposite Direction,Daylight,Clear
 Hawaii,150056,1,MAUI (9),WAIOHULI (RESIDENTIAL) HAWAIIAN HOME LAND,July,Wednesday,State Highway,Rural,20.62201944,-156.2226417,Guardrail End,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Reported as Unknown,Reported as Unknown
 Hawaii,150057,2,HONOLULU (3),PEARL CITY,July,Wednesday,County Road,Urban,21.34589722,-157.9126556,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150058,5,HAWAII (1),HONOKA�A,June,Thursday,State Highway,Rural,20.06244167,-155.5391278,Fence,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
+Hawaii,150058,5,HAWAII (1),HONOKA‘A,June,Thursday,State Highway,Rural,20.06244167,-155.5391278,Fence,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150060,1,HONOLULU (3),HONOLULU,July,Friday,County Road,Urban,21.27886111,-157.7892944,Utility Pole/Light Support,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150061,1,HONOLULU (3),HONOLULU,July,Thursday,State Highway,Rural,21.28511667,-157.7265667,Other Object (not fixed),The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
 Hawaii,150062,4,MAUI (9),KIHEI,July,Sunday,State Highway,Urban,20.73983056,-156.445625,Motor Vehicle In-Transport,Front-to-Front,Dark - Lighted,Clear
-Hawaii,150063,2,KAUAI (7),KAPA�A,June,Saturday,County Road,Rural,22.09605,-159.3691583,Motor Vehicle In-Transport,Front-to-Front,Daylight,Clear
+Hawaii,150063,2,KAUAI (7),KAPA‘A,June,Saturday,County Road,Rural,22.09605,-159.3691583,Motor Vehicle In-Transport,Front-to-Front,Daylight,Clear
 Hawaii,150065,2,HONOLULU (3),WAHIAWA,August,Thursday,County Road,Urban,21.48380833,-158.0466611,Utility Pole/Light Support,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Cloudy
 Hawaii,150066,1,HONOLULU (3),WAIMANALO,August,Saturday,State Highway,Urban,21.32785833,-157.6876778,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Cloudy
-Hawaii,150067,2,HONOLULU (3),�AIEA,August,Sunday,County Road,Urban,21.38020556,-157.9285139,Pedalcyclist,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
+Hawaii,150067,2,HONOLULU (3),‘AIEA,August,Sunday,County Road,Urban,21.38020556,-157.9285139,Pedalcyclist,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150068,6,MAUI (9),HONOKOWAI HAWAIIAN HOME LAND,August,Saturday,State Highway,Rural,20.81044444,-156.6195361,Motor Vehicle In-Transport,Sideswipe - Opposite Direction,Daylight,Clear
 Hawaii,150069,1,HONOLULU (3),PEARL CITY,August,Saturday,County Road,Urban,21.41786389,-157.963425,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150072,4,HONOLULU (3),WAIPAHU,September,Monday,County Road,Urban,21.40353056,-158.041075,Motor Vehicle In-Transport,Front-to-Rear,Daylight,Clear
@@ -4164,11 +4164,11 @@ Hawaii,150073,1,HAWAII (1),KAILUA KONA,August,Thursday,County Road,Urban,19.6043
 Hawaii,150074,2,HONOLULU (3),HONOLULU,September,Thursday,State Highway,Urban,21.33641944,-157.8697056,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150075,2,MAUI (9),KIHEI,October,Sunday,County Road,Urban,20.76719167,-156.4585222,Fence,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150076,1,HONOLULU (3),HONOLULU,October,Friday,Interstate,Urban,21.30633056,-157.85005,Concrete Traffic Barrier,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
-Hawaii,150077,2,MAUI (9),PA�IA,November,Saturday,State Highway,Urban,20.93798333,-156.3427889,Embankment,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
+Hawaii,150077,2,MAUI (9),PA‘IA,November,Saturday,State Highway,Urban,20.93798333,-156.3427889,Embankment,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150078,1,HONOLULU (3),HONOLULU,October,Thursday,County Road,Urban,21.27635556,-157.7847694,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150079,1,HAWAII (1),WAIKOLOA VILLAGE,October,Thursday,County Road,Urban,19.93680556,-155.7893944,Utility Pole/Light Support,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150080,1,MAUI (9),LANA�I CITY,November,Thursday,County Road,Rural,20.82746111,-156.9193056,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Cloudy
-Hawaii,150081,2,HONOLULU (3),KANE�OHE,November,Friday,State Highway,Urban,21.42001389,-157.8030389,Motor Vehicle In-Transport,Angle,Dark - Lighted,Clear
+Hawaii,150080,1,MAUI (9),LANA‘I CITY,November,Thursday,County Road,Rural,20.82746111,-156.9193056,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Cloudy
+Hawaii,150081,2,HONOLULU (3),KANE‘OHE,November,Friday,State Highway,Urban,21.42001389,-157.8030389,Motor Vehicle In-Transport,Angle,Dark - Lighted,Clear
 Hawaii,150082,4,HONOLULU (3),PEARL CITY,November,Wednesday,Interstate,Urban,21.43490556,-157.9960556,Motor Vehicle In-Transport,Sideswipe - Same Direction,Daylight,Clear
 Hawaii,150083,2,HAWAII (1),HILO,November,Wednesday,County Road,Urban,19.71366667,-155.1063056,Pedalcyclist,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150084,1,HAWAII (1),LAUPAHOEHOE,November,Saturday,State Highway,Rural,20.00382222,-155.2603444,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
@@ -4180,18 +4180,18 @@ Hawaii,150089,3,HONOLULU (3),NANAKULI,November,Sunday,County Road,Urban,21.41606
 Hawaii,150091,3,HONOLULU (3),MILILANI TOWN,October,Sunday,Interstate,Urban,21.48626111,-158.0256639,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150092,2,MAUI (9),KAHULUI,November,Monday,State Highway,Urban,20.87513889,-156.4616083,Motor Vehicle In-Transport,Sideswipe - Same Direction,Daylight,Clear
 Hawaii,150093,7,HONOLULU (3),HONOLULU,November,Thursday,State Highway,Urban,21.34689722,-157.8663444,Motor Vehicle In-Transport,Front-to-Rear,Dark - Lighted,Clear
-Hawaii,150094,1,HONOLULU (3),KANE�OHE,December,Sunday,State Highway,Urban,21.45295,-157.83485,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Cloudy
+Hawaii,150094,1,HONOLULU (3),KANE‘OHE,December,Sunday,State Highway,Urban,21.45295,-157.83485,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Cloudy
 Hawaii,150095,0,HAWAII (1),HOLUALOA,October,Sunday,County Road,Urban,19.67913889,-155.9678222,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150096,2,KAUAI (7),KAPA�A,October,Friday,State Highway,Urban,22.06406944,-159.3196028,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dawn,Clear
-Hawaii,150097,2,HAWAII (1),HONOKA�A,November,Monday,State Highway,Rural,20.06638056,-155.5172806,Motor Vehicle In-Transport,Front-to-Front,Dawn,Clear
+Hawaii,150096,2,KAUAI (7),KAPA‘A,October,Friday,State Highway,Urban,22.06406944,-159.3196028,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dawn,Clear
+Hawaii,150097,2,HAWAII (1),HONOKA‘A,November,Monday,State Highway,Rural,20.06638056,-155.5172806,Motor Vehicle In-Transport,Front-to-Front,Dawn,Clear
 Hawaii,150098,1,HONOLULU (3),MAKAKILO CITY,December,Saturday,County Road,Urban,21.348625,-158.0865972,Tree (Standing Only),The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 Hawaii,150099,3,HONOLULU (3),KAHUKU,December,Saturday,State Highway,Urban,21.69627222,-157.9977833,Motor Vehicle In-Transport,Front-to-Front,Daylight,Cloudy
 Hawaii,150100,1,MAUI (9),WAIOHULI (RESIDENTIAL) HAWAIIAN HOME LAND,December,Tuesday,State Highway,Urban,20.76076111,-156.3071556,Pedalcyclist,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
-Hawaii,150101,1,HONOLULU (3),�AIEA,December,Tuesday,State Highway,Urban,21.36413889,-157.937875,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
+Hawaii,150101,1,HONOLULU (3),‘AIEA,December,Tuesday,State Highway,Urban,21.36413889,-157.937875,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 Hawaii,150102,2,HAWAII (1),KAILUA KONA,November,Thursday,County Road,Urban,19.66091944,-155.9923722,Fell/Jumped from Vehicle,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Clear
 Hawaii,150103,2,HAWAII (1),VOLCANO,December,Tuesday,State Highway,Rural,19.45454722,-155.1755639,Motor Vehicle In-Transport,Front-to-Front,Dark - Unknown Lighting,Rain
 Hawaii,150104,5,KAUAI (7),ANAHOLA,November,Saturday,State Highway,Urban,22.14525556,-159.3152111,Guardrail Face,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
-Hawaii,150105,1,HAWAII (1),NA�ALEHU,November,Sunday,County Road,Rural,19.03511111,-155.6593667,Tree (Standing Only),The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Rain
+Hawaii,150105,1,HAWAII (1),NA‘ALEHU,November,Sunday,County Road,Rural,19.03511111,-155.6593667,Tree (Standing Only),The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Rain
 Hawaii,150106,2,HAWAII (1),MOUNTAIN VIEW,December,Wednesday,State Highway,Rural,19.56425278,-155.0898111,Motor Vehicle In-Transport,Front-to-Front,Daylight,Clear
 Idaho,160006,2,BANNOCK (5),MCCAMMON,January,Monday,U.S. Highway,Rural,42.64995833,-112.1825972,Motor Vehicle In-Transport,Front-to-Front,Daylight,Snow
 Idaho,160008,2,SHOSHONE (79),WALLACE,January,Wednesday,Interstate,Rural,47.47907778,-115.9337611,Concrete Traffic Barrier,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Daylight,Cloudy
@@ -8266,7 +8266,7 @@ New Mexico,350349,3,BERNALILLO (1),ALBUQUERQUE,December,Thursday,Local Street - 
 New Mexico,350350,1,MCKINLEY (31),TOHATCHI,March,Tuesday,U.S. Highway,Urban,35.85928611,-108.7453778,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 New Mexico,350354,1,BERNALILLO (1),ALBUQUERQUE,December,Wednesday,Local Street - Township,Urban,35.08618333,-106.7183056,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Not Lighted,Clear
 New Mexico,350356,2,DONA ANA (13),LAS CRUCES,December,Monday,Local Street - Municipality,Urban,32.32671111,-106.787725,Traffic Signal Support,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
-New Mexico,350359,2,RIO ARRIBA (39),ESPA�OLA,December,Sunday,County Road,Urban,36.01368889,-106.0435806,Wall,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
+New Mexico,350359,2,RIO ARRIBA (39),ESPAÑOLA,December,Sunday,County Road,Urban,36.01368889,-106.0435806,Wall,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 New York,360001,5,KINGS (47),NEW YORK CITY,January,Tuesday,Local Street - Municipality,Urban,40.66118889,-74.00077778,Pedalcyclist,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Clear
 New York,360002,1,NASSAU (59),LONG BEACH,January,Saturday,Local Street - Township,Urban,40.58869444,-73.66241667,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Rain
 New York,360003,1,NASSAU (59),LYNBROOK,January,Saturday,Local Street - Township,Urban,40.65161944,-73.66951667,Pedestrian,The First Harmful Event was Not a Collision with a Motor Vehicle in Transport,Dark - Lighted,Rain
