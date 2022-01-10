@@ -6,7 +6,7 @@ DROP TABLE IF EXISTS vehicle;
 ---------------------
 CREATE TABLE accidents (
 
-    state VARCHAR NOT NULL 
+    state VARCHAR NOT NULL, 
     case_number INTEGER NOT NULL,
     persons INTEGER NOT NULL,
     county VARCHAR NOT NULL ,
@@ -20,7 +20,7 @@ CREATE TABLE accidents (
     first_harm VARCHAR NOT NULL,
     man_collision VARCHAR NOT NULL, 
     light_condit VARCHAR NOT NULL, 
-    weatherVARCHAR NOT NULL,
+    weather VARCHAR NOT NULL,
     PRIMARY KEY (case_number)); 
 
 
@@ -28,7 +28,7 @@ CREATE TABLE accidents (
 ---------------------
 
 CREATE TABLE people (
-    id SERIAL
+    id SERIAL,
     case_number INTEGER NOT NULL,
     vehicle_model VARCHAR NOT NULL,
     vehicle_manufacturer VARCHAR NOT NULL,
