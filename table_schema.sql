@@ -30,8 +30,8 @@ CREATE TABLE accidents (
 CREATE TABLE people (
     id SERIAL,
     case_number INTEGER NOT NULL,
-    vehicle_model VARCHAR NOT NULL,
     vehicle_manufacturer VARCHAR NOT NULL,
+    vehicle_model VARCHAR NOT NULL,
     age INTEGER NOT NULL,
     sex VARCHAR NOT NULL,
     doa_status VARCHAR NOT NULL,
