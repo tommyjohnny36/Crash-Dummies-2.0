@@ -1,27 +1,81 @@
--- Visualizations --
+SELECT * FROM accidents;
+SELECT * FROM people;
+SELECT * FROM vehicle;
 
--- 1. List the following details of each accident involving vehicle
--- accidents: state, case_num, county, city, lat, lon, first harmful event, manner of collision, route, rural/urban, weather
--- people: vehicle_manufacturer, vehicle_model, doa_status
--- vehicle: body type
+-- States where the most accidents occur
+SELECT accidents.state, Count (case_number) as "accident_count"
+FROM accidents
+GROUP BY accidents.state
+ORDER BY Count (*) DESC;
 
--- Vehicle types involved in most accidents
--- Vehicle type involved in most fatal accidents
--- Vehicle type involved with most non-fatal accidents
+-- Vehicle manufacturer and model with the most accidents
+SELECT people.vehicle_model, people.vehicle_manufacturer, Count (people.case_number) as "accident_count"
+FROM people
+GROUP BY people.vehicle_model, people.vehicle_manufacturer
+ORDER BY Count (*) DESC;
 
--- 2. List the following details of each accident involving age group
--- people: age, sex, doa_status, age_label
--- accidents: persons, county, city, month, day, lat, lon, first harmful event, manner of collision, route, rural/urban, weather
--- vehicle: speed exceed, driver safety
+-- Most accidents by vehicle model in each state
+SELECT accidents.state, people.vehicle_model, Count (people.case_number) as "accident_count"
+FROM accidents
+JOIN people
+ON accidents.case_number = people.case_number
+GROUP BY accidents.state, people.vehicle_model
+ORDER BY Count (*) DESC;
 
--- age group involved in most accidents
--- age group involved with most fatal accidents
--- age group involved with most non-fatal accidents
+-- Vehicle models and manufacturers with the most fatal accidents
+SELECT vehicle_model, doa_status, vehicle_manufacturer, Count (case_number) AS "accident_count"
+FROM people
+WHERE doa_status = 'Fatal'
+GROUP BY vehicle_model, doa_status, vehicle_manufacturer
+ORDER BY Count(case_number) DESC;
+
+-- Vehicle models and manufacturers with the most non-fatal accidents
+SELECT vehicle_model, doa_status, vehicle_manufacturer, Count (case_number) AS "accident_count"
+FROM people
+WHERE doa_status = 'No Fatality'
+GROUP BY vehicle_model, doa_status, vehicle_manufacturer
+ORDER BY Count(case_number) DESC;
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+-- Breakdown of accidents by state by age
+SELECT accidents.state, people.age, people.age_label, Count (accidents.case_number) AS "accident_count"
+FROM accidents
+JOIN people
+ON accidents.case_number = people.case_number
+GROUP BY accidents.state, people.age, people.age_label
+ORDER BY Count (*) DESC;
+
+-- Age and Age group with the most accidents
+SELECT people.age, people.age_label, Count (case_number) AS "accident_count"
+FROM people
+GROUP BY people.age, people.age_label
+ORDER BY Count(case_number) DESC;
+
+-- Age groups with most accidents
+SELECT people.age_label, Count (case_number) AS "accident_count"
+FROM people
+GROUP BY people.age_label
+ORDER BY Count(case_number) DESC;
+
+-- Age and Age group with the most non-fatal accidents
+SELECT people.age, people.age_label, doa_status, Count (case_number) AS "accident_count"
+FROM people
+WHERE doa_status = 'No Fatality'
+GROUP BY people.age, people.age_label, doa_status
+ORDER BY Count(case_number) DESC;
+
+-- Age and Age group with the most fatal accidents
+SELECT people.age, people.age_label, doa_status, Count (case_number) AS "accident_count"
+FROM people
+WHERE doa_status = 'Fatal'
+GROUP BY people.age, people.age_label, doa_status
+ORDER BY Count(case_number) DESC;
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 
--- 3. List the following details of each accident involving sex of driver
--- accidents: persons, county, city, month, day, lat, lon, first harmful event & manner of collision by route and rural/urban, weather
--- people: sex, doa_status, age, count of fatal and non-fatal accidents by month and day
--- vehicle: speed exceed, driver safety, hit/run
+
 
 
