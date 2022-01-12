@@ -1,4 +1,4 @@
-# Crash-Dummies-2.0 - Car Accidents Analysis
+# Crash Dummies 2.0 - Car Accident Analysis
 
 ## Team Members: Arnold Wamulanga, Thomas Lawless, Shreya Udeshi
 
@@ -21,6 +21,8 @@ The goal with this project is to create a map of all accidents across the U.S., 
 4. Notebook: *Jupyter Notebook*
 5. *Flask API*
 6. *Leaflet, GeoJSON*
+
+![Coder](/images/2.gif)
 
 
 
