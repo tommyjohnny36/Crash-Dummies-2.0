@@ -1,4 +1,4 @@
-# Crash-Dummies-2.0 - Car Accidents Analysis
+# Crash Dummies 2.0 - Car Accident Analysis
 
 ## Team Members: Arnold Wamulanga, Thomas Lawless, Shreya Udeshi
 
