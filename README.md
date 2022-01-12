@@ -22,6 +22,8 @@ The goal with this project is to create a map of all accidents across the U.S., 
 5. *Flask API*
 6. *Leaflet, GeoJSON*
 
+![Coder](/images/2.gif)
+
 
 
 
