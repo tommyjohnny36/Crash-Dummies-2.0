@@ -98,5 +98,21 @@ FROM vehicle
 GROUP BY hit_run
 ORDER BY count(*) DESC;
 
---
+-- Count of hit and run cases by gender
+SELECT v.hit_run, p.sex, count(v.case_number) as Accident_Count
+FROM vehicle as v
+JOIN people as p
+ON v.case_number = p.case_number
+GROUP BY p.sex, v.hit_run
+ORDER BY count(v.case_number) DESC;
+
+-- Count of hit and run cases by rural_urban area
+SELECT v.hit_run, a.rural_urban, count(v.case_number) as Accident_Count
+FROM vehicle as v
+JOIN accidents as a
+ON v.case_number = a.case_number
+GROUP BY a.rural_urban, v.hit_run
+ORDER BY count(*) DESC;
+
+
 
