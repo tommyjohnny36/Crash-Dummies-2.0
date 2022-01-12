@@ -1,6 +1,6 @@
 # Crash-Dummies-2.0 - Car Accidents Analysis
 
-## Team Members: Shreya Udeshi, Thomas Lawless, Arnold Wamulanga
+## Team Members: Arnold Wamulanga, Thomas Lawless, Shreya Udeshi
 
 ## Background
 
@@ -17,8 +17,10 @@ The goal with this project is to create a map of all accidents across the U.S., 
 
 1. Scripting: *Python Scripting, Java Scripting*
 2. SQL: *PostgresSQL*
-3. *Flask API*
-4. *Leaflet, GeoJSON*
+3. Libraries used: *pandas, sqlalchemy, flask, psycopg2, json*
+4. Notebook: *Jupyter Notebook*
+5. *Flask API*
+6. *Leaflet, GeoJSON*
 
 
 
