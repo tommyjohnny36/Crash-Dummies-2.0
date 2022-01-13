@@ -9,7 +9,6 @@ d3.json(url).then(function(data) {
   console.log(data);
 });
 
-
 const canvas = d3.select(".canva");
 
 // Add an svg element
