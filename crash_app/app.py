@@ -26,17 +26,33 @@ Vehicle = Base.classes.vehicle
 
 
 @app.route("/")
-def index():
+def home():
+    return(
+        f"Welcome to Crash Dummies 2.0! <br/>"
+    
+        f"Available Routes:<br/>"
+
+        f"/api/v1.0/vehicles<br/>"
+        f" - List of accident information by vehicle type<br/>"
+
+        f"/api/v1.0/age<br/>"
+    )
+@app.route("/index")
+def vehicle(state):
 
     # session = Session(engine)
 
     """ return all vechicle types  """
-    state_accidents = session.query(Accidents.state, func.count(Accidents.case_number)).\
+    state = session.query.filter_by(state=state).Accidents.state, func.count(Accidents.case_number).\
     group_by(Accidents.state).\
     order_by(func.count(Accidents.case_number).desc()).all()
 
-    session.close()
+    return render_template('index.html', state=state)
 
+
+
+
+    session.close()
 
     state_results = list(np.ravel(state_accidents))
 
