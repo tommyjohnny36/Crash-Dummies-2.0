@@ -31,20 +31,21 @@ function dropdownmenu() {
       });
   });
 };
+
 // Create the plotting function
-function plotting(sampleID) {
+function plotting(case_number) {
 
   // Read in samples.json
   d3.json("data.json").then(function (data) {
       
       // Filtering the json file
-      let Data = data.samples.filter(i => i.id == sampleID)[0];
+      let Data = data.samples.filter(x => x.case_number == case_number)[0];
 
       // Set the metrics for bar plot
       let trace1 = {
-          x: Data.sample_values.slice(0, 10).reverse(),
-          y: Data.otu_ids.slice(0, 10).map(otu_id => `OTU #${otu_id}`).reverse(),
-          text: Data.otu_labels.slice(0, 10).reverse(),
+          x: Data.state.slice(0, 10).reverse(),
+          y: Data.case_number.slice(0, 10).map(case_number => `case_number #${case_number}`).reverse(),
+          text: Data.state.slice(0, 10).reverse(),
           type: "bar",
           orientation: "h",
           marker: {
@@ -67,14 +68,14 @@ function plotting(sampleID) {
 
 // Set the metrics for the bubble plot
       let trace2 = {
-        x: Data.otu_ids,
-        y: Data.sample_values,
+        x: Data.sex,
+        y: Data.case_number,
         mode: "markers",
         marker: {
-            size: Data.sample_values,
-            color: Data.otu_ids
+            size: Data.case_number,
+            color: Data.sex
         },
-        text: Data.otu_labels,
+        text: Data.sex,
         
     };
 
@@ -93,22 +94,22 @@ function plotting(sampleID) {
 };
 
 // Create the demographic information
-function demo(sampleID) {
+function demo(case_number) {
 
-let boxData = d3.select("#sample-metadata");
-d3.json("samples.json").then(function (data) {
-    let boxData = data.metadata.filter(x => x.id == sampleID)[0];
+let boxData = d3.select("#state");
+d3.json("data.json").then(function (data) {
+    let boxData = data.metadata.filter(x => x.id == case_number)[0];
     d3.select("#sample-metadata").html("");
     Object.entries(boxData).forEach(element => {
-        d3.select("#sample-metadata").append("h6").text(`${element[0]}: ${element[1]}`)
+        d3.select("#state").append("h6").text(`${element[0]}: ${element[1]}`)
     });
 
 });
 }
 
 // Create a function for changing sampleID
-function optionChanged(sampleID) {
-plotting(sampleID);
+function optionChanged(case_number) {
+plotting(case_number);
 demo(sampleID);
 gaugeplot(sampleID)
 };
@@ -153,11 +154,11 @@ function gaugeplot(sampleID) {
 // Populating the plots
 function createPlots() {
 
-  d3.json("samples.json").then(function (data) {
-      let IDs = data.names[0];
-      plotting(IDs);
-      demo(IDs);
-      gaugeplot(IDs);
+  d3.json("data.json").then(function (data) {
+      let case_number = data.names[0];
+      plotting(case_number);
+      demo(case_number);
+      gaugeplot(case_number);
       dropdownmenu();
   });
 };
