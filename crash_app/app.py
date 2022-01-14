@@ -1,15 +1,18 @@
-import sqlalchemy
+import sqlalchemy as db
 from sqlalchemy.ext.automap import automap_base
+from sqlalchemy import Column, Date, Integer, Text, create_engine, inspect
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
 from flask import Flask, jsonify, render_template
 from flask_sqlalchemy import SQLAlchemy
 import psycopg2
 import numpy as np
+import json
+import pandas as pd
 
 
 
-engine = create_engine('postgresql+psycopg2://postgres:postgres@localhost:5432/Crash-Dummies-2.0')
+engine = db.create_engine('postgresql+psycopg2://postgres:postgres@localhost:5432/Crash-Dummies-2.0')
 
 
 app = Flask(__name__)
@@ -38,25 +41,15 @@ def home():
         f"/api/v1.0/age<br/>"
     )
 @app.route("/index")
-def vehicle(state):
+def query():
 
-    # session = Session(engine)
+    df_1 = pd.read_sql('select * from people', 'engine')  
 
-    """ return all vechicle types  """
-    state = session.query.filter_by(state=state).Accidents.state, func.count(Accidents.case_number).\
-    group_by(Accidents.state).\
-    order_by(func.count(Accidents.case_number).desc()).all()
-
-    return render_template('index.html', state=state)
-
-
+    return df_1.to_json
 
 
     session.close()
 
-    state_results = list(np.ravel(state_accidents))
-
-    return jsonify(state_results)
 
 
 # @app.route("/queries")
