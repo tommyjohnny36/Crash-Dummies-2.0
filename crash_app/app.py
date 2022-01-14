@@ -41,12 +41,13 @@ def home():
 
         f"/api/v1.0/age<br/>"
     )
-@app.route("/index")
+@app.route("/data")
 def query():
 
 
     query = '''
-    SELECT a.case_number, a.state, a.lat, a.lon, p.sex, p.age_label, p.age, p.doa_status, p.vehicle_model, p.vehicle_manufacturer, a.rural_urban, v.hit_run
+    SELECT a.case_number, a.month, a.day, a.state, a.city, a.lat, a.lon, p.sex, p.age_label, p.age, p.doa_status, p.vehicle_model, p.vehicle_manufacturer,
+    a.route, a.first_harm, a.man_collision, a.light_condit, a.weather, a.rural_urban, v.hit_run
     from accidents a
     inner join people p
     on a.case_number=p.case_number

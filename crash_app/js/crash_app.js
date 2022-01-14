@@ -23,20 +23,19 @@
 function dropdownmenu() {
 
   let dropdown = d3.select("#selDataset");
-  d3.json("samples.json").then(function (data) {
-      let IDs = data.names;
-      IDs.forEach(ID => {
-          dropdown.append("option").text(ID).property("value", ID)
+  d3.json("data.json").then(function (data) {
+      let case_number = data.case_number;
+      case_number.forEach(case_number => {
+          dropdown.append("option").text(case_number).property("value", case_number)
 
       });
   });
 };
-
 // Create the plotting function
 function plotting(sampleID) {
 
   // Read in samples.json
-  d3.json("samples.json").then(function (data) {
+  d3.json("data.json").then(function (data) {
       
       // Filtering the json file
       let Data = data.samples.filter(i => i.id == sampleID)[0];
