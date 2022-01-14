@@ -24,6 +24,9 @@ The goal with this project is to create a map of all accidents across the U.S., 
 
 ![Coder](/images/2.gif)
 
+## Accomplishments
+
+// add in JS and flask stuff //
 
 
 
