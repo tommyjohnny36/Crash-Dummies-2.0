@@ -116,3 +116,10 @@ ORDER BY count(*) DESC;
 
 
 
+
+select a.case_number, v.hit_run, p.sex
+from accidents as a
+join vehicle as v
+
+
+
