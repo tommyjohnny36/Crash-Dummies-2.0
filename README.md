@@ -4,7 +4,7 @@
 
 ## Background
 
-![Crash Dummies](/General Information/images/1.gif)
+![Crash Dummies](/images/1.gif)
 
 **Source of Data:** 
 
@@ -22,7 +22,7 @@ The goal with this project is to create a map of all accidents across the U.S., 
 5. *Flask API*
 6. *Leaflet, GeoJSON*
 
-![Coder](/General Information/images/2.gif)
+![Coder](/images/2.gif)
 
 
 
