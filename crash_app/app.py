@@ -14,6 +14,7 @@ import pandas as pd
 
 engine = db.create_engine('postgresql+psycopg2://postgres:postgres@localhost:5432/Crash-Dummies-2.0')
 
+con = engine.connect()
 
 app = Flask(__name__)
 
@@ -43,12 +44,22 @@ def home():
 @app.route("/index")
 def query():
 
-    df_1 = pd.read_sql('select * from people', 'engine')  
 
-    return df_1.to_json
+    query = '''
+    SELECT a.case_number, a.state, a.lat, a.lon, p.sex, p.age_label, p.age, p.doa_status, p.vehicle_model, p.vehicle_manufacturer, a.rural_urban, v.hit_run
+    from accidents a
+    inner join people p
+    on a.case_number=p.case_number
+    inner join vehicle v
+    on p.case_number=v.case_number
 
+'''   
 
-    session.close()
+    df = pd.read_sql(query, con=engine)
+    no_dups_df = df.drop_duplicates()
+    result = no_dups_df.to_json(orient="records")
+    parsed = json.loads(result)
+    return json.dumps(parsed, indent=4) 
 
 
 
