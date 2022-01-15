@@ -10,9 +10,6 @@ from dbconfig import config
 
 
 class DBHelper:
-# engine = db.create_engine('postgresql+psycopg2://postgres:postgres@localhost:5432/Crash-Dummies-2.0')
-
-# session = Session(bind=engine)
 
 # Establish a connection to the database by creating a cursor object
 # Obtain the configuration parameters
@@ -37,9 +34,13 @@ class DBHelper:
                 inner join vehicle v \
                 on p.case_number=v.case_number'''
 
+            # Create DataFrame using pandas
             df = pd.read_sql(query, connection)
+            # Remove duplicate case_number's from retrieved query
             no_dups_df = df.drop_duplicates()
+            # Transform result into json object
             result = no_dups_df.to_json(orient="records")
+            # Load result into json object and return to flask route
             parsed = json.loads(result)
             return (parsed)
 
@@ -47,36 +48,3 @@ class DBHelper:
             # Close the cursor and connection to so the server can allocate
             # bandwidth to other requests
             connection.close()
-
-########################################################
-########################################################
-
-    # def get_all_inputs(self):
-    #     connection = self.connect()
-    #     try:
-    #         query = "SELECT description FROM crimes;"
-    #         with connection.cursor() as cursor:
-    #             cursor.execute(query)
-    #         return cursor.fetchall()
-    #     finally:
-    #         connection.close()
-
-    # def add_input(self, data):
-    #     connection = self.connect()
-    #     try:
-    #         query = "INSERT INTO crimes (description) VALUES (%s);"
-    #         with connection.cursor() as cursor:
-    #             cursor.execute(query, data)
-    #             connection.commit()
-    #     finally:
-    #         connection.close()
-
-    # def clear_all(self):
-    #     connection = self.connect()
-    #     try:
-    #         query = "DELETE FROM crimes;"
-    #         with connection.cursor() as cursor:
-    #             cursor.execute(query)
-    #             connection.commit()
-    #     finally:
-    #         connection.close()
