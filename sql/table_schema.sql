@@ -20,15 +20,14 @@ CREATE TABLE accidents (
     first_harm VARCHAR NOT NULL,
     man_collision VARCHAR NOT NULL, 
     light_condit VARCHAR NOT NULL, 
-    weather VARCHAR NOT NULL,
-    PRIMARY KEY (case_number)); 
+    weather VARCHAR NOT NULL
+    ); 
 
 
 ---------------------
 ---------------------
 
 CREATE TABLE people (
-    id SERIAL,
     case_number INTEGER NOT NULL,
     vehicle_manufacturer VARCHAR NOT NULL,
     vehicle_model VARCHAR NOT NULL,
@@ -36,8 +35,7 @@ CREATE TABLE people (
     sex VARCHAR NOT NULL,
     doa_status VARCHAR NOT NULL,
     passenger_type VARCHAR NOT NULL,
-    age_label VARCHAR NOT NULL,
-    PRIMARY KEY (id) 
+    age_label VARCHAR NOT NULL
 );
 
 
