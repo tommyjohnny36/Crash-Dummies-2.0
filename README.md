@@ -22,7 +22,7 @@ The goal with this project is to create a map of all accidents across the U.S., 
 5. *Flask API*
 6. *Leaflet, GeoJSON*
 
-![Coder](/crash_app/static/templates/images/1.gif)
+![Coder](/crash_app/static/templates/images/2.gif)
 
 ## Accomplishments
 
