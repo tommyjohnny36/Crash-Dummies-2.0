@@ -70,14 +70,14 @@
     </div>
   </div>
   <div>  
-    {% for userinput in data %}
-    <p>{{userinput}}</p>
-    {% endfor %}
+    {% extends "base.html" %} {% block content %}
+    {% endblock content %} 
   </div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="../js/crash_app.js"></script>
+  <script src="static/templates/js/map.js"></script>
+  <script src="static/templates/js/plot.js"></script>
   <!-- <script src="./static/js/bonus.js"></script> -->
   
 </body>

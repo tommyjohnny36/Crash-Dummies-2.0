@@ -13,15 +13,17 @@ from dbhelper import DBHelper
 app = Flask(__name__)
 DB = DBHelper()
 
-
 @app.route("/")
 def index():
-    # try:
-    #     data = DB.get_data()
-    # except Exception as e:
-    #     print (e)
-    #     data = None
-    return jsonify(DB.get_data())
+    """This is the index or home route."""
+    # return render_template("index.html")
+
+
+@app.route("/accident-data/")
+def accident_data():
+
+    metaData = jsonify(DB.get_data())
+    return metaData
 
 
 # @app.route("/interactive_chart")

@@ -1,6 +1,6 @@
 # This Python script connects to a PostgreSQL database and utilizes Pandas to obtain data and create a data frame
 # A initialization and configuration file is used to protect the author's login credentials 
-import sqlalchemy
+import sqlalchemy 
 import psycopg2
 import pandas as pd
 from flask import jsonify
