@@ -39,7 +39,7 @@ function plotting(case_number) {
   d3.json("data.json").then(function (data) {
       
       // Filtering the json file
-      let Data = data.samples.filter(x => x.case_number == case_number)[0];
+      let Data = data.samples.filter(x => x.id == case_number)[0];
 
       // Set the metrics for bar plot
       let trace1 = {
