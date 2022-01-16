@@ -19,11 +19,17 @@ def index():
     # return render_template("index.html")
 
 
+@app.route("/hello")
+def hello():
+    return "hello world"
+
+
+
 @app.route("/accident-data/")
 def accident_data():
 
-    metaData = jsonify(DB.get_data())
-    return metaData
+    metaData = DB.get_data()
+    return jsonify(metaData)
 
 
 # @app.route("/interactive_chart")

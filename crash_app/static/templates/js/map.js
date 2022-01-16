@@ -12,7 +12,7 @@ function createMap(accidents) {
   
     // Create an overlayMaps object to hold the accidents layer.
     var overlayMaps = {
-      "Bike Stations": accidents
+      "Accident Locations": accidents
     };
   
     // Create the map object with options.
@@ -36,13 +36,13 @@ function createMap(accidents) {
     // Initialize an array to hold bike markers.
     var accidentMarkers = [];
   
-    // Loop through the stations array.
+    // Loop through the accident array.
     for (var i = 0; i < metaData.length; i++) {
       var accident = metaData[i];
   
-      // For each station, create a marker, and bind a popup with the station's name.
-      var accidentMarker = L.marker([metaData.lat, metaData.lon])
-        .bindPopup("<h5>City: " + metaData.city + "</h5><h5>Outcome: " + metaData.doa_status + "</h5><h5>Manner of Collision: " + metaData.man_collision + "</h5><h5>Route: " + metaData.route);
+      // For each accident, create a marker, and bind a popup with the city, doa_status, manner of collision, route
+      var accidentMarker = L.marker([accident.lat, accident.lon])
+        .bindPopup("<h5>City: " + accident.city + "</h5><h5>Outcome: " + accident.doa_status + "</h5><h5>Manner of Collision: " + accident.man_collision + "</h5><h5>Route: " + accident.route);
   
       // Add the marker to the bikeMarkers array.
       accidentMarkers.push(accidentMarker);
@@ -53,4 +53,4 @@ function createMap(accidents) {
   }
   
   // Perform an API call to the Citi Bike API to get the station information. Call createMarkers when it completes.
-  d3.json("http://127.0.0.1:9000/bike-data/?q=3").then(createMarkers);
+  d3.json("http://127.0.0.1:5500/accident-data/").then(createMarkers);
