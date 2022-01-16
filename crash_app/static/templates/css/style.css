@@ -1,0 +1,7 @@
+body {
+    background-image: url("crash_app/static/templates/images/back.jpg");
+    height: 750px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
